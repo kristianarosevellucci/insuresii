@@ -1,0 +1,14 @@
+@mixin bg-img($img) {
+  background: url('$img') no-repeat center right;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@mixin gradient($left, $right) {
+  background: $left; /* Old browsers */
+  background: -moz-linear-gradient(left, $left 0%, $right 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, $left 0%, $right 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, $left 0%, $right 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}

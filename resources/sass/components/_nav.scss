@@ -1,0 +1,13 @@
+nav {
+  padding: 25px 50px;
+}
+
+.nav-btn {
+  float: right;
+  @media only screen and (max-width: $screen-sm-min) {
+    display: block;
+    margin: 0 auto;
+    max-width: 250px;
+    float: none;
+  }
+}

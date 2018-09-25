@@ -1,0 +1,10 @@
+body {
+  background: url('../assets/dist/images/yellow-stripe.png') no-repeat center bottom;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  @media only screen and (max-width: $screen-sm) {
+    background: white;
+  }
+}

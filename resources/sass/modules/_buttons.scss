@@ -1,0 +1,32 @@
+.btn {
+  background: $yellow; /* Old browsers */
+  background: -moz-linear-gradient(left, $yellow 0%, $coral 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, $yellow 0%, $coral 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, $yellow 0%, $coral 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  border-radius: 0;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  padding: 15px 25px;
+  text-transform: uppercase;
+  transition: .5s ease;
+  &:hover {
+    -webkit-box-shadow: 10px 10px 56px -12px rgba(0,0,0,0.26);
+    -moz-box-shadow: 10px 10px 56px -12px rgba(0,0,0,0.26);
+    box-shadow: 10px 10px 56px -12px rgba(0,0,0,0.26);
+  }
+}
+
+.btn-primary {
+  background: $yellow; /* Old browsers */
+  background: -moz-linear-gradient(left, $yellow 0%, $coral 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, $yellow 0%, $coral 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, $yellow 0%, $coral 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.btn-info {
+  background: $charcoal;
+  &:hover, &:active {
+    background: $charcoal;
+  }
+}

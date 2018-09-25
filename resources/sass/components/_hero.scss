@@ -1,0 +1,59 @@
+.header-logo {
+  max-width: 215px;
+  padding: 10px 0 0 25px;
+}
+
+.homepage-hero {
+  background: url('../assets/dist/images/hero.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  @media only screen and (max-width: $screen-sm) {
+    border: none;
+  }
+}
+
+.homepage-hero--intro {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: white;
+  @media only screen and (max-width: $screen-sm) {
+    color: $charcoal;
+  }
+}
+
+.homepage-hero--content {
+  padding: 150px 0;
+  @media only screen and (max-width: $screen-sm) {
+    padding: 20px 0 300px;
+  }
+}
+
+.homepage-hero--lead {
+  color: $yellow;
+  font-family: 'Yellowtail', cursive;
+  font-weight: 400;
+  font-size: 36px;
+  margin-top: -50px;
+  text-shadow: 2px 2px 11px $charcoal;
+  @media only screen and (max-width: $screen-sm) {
+    font-size: 32px;
+    margin-top: -40px;
+  }
+  @media only screen and (max-width: $screen-xs) {
+    text-shadow: 1px 1px 3px $charcoal;
+  }
+}
+
+.homepage-hero--btn {
+  margin: 0 auto;
+}
+
+.homepage-hero--title {
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, .2);
+  line-height: 1;
+}
